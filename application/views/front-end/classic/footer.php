@@ -364,7 +364,7 @@
             </div>
             <div class="pt-4 pb-4 text-center text-md-left">
                 <div class="button button-sm m-0 p-0">
-                    <button class="buttons primary-button m-0 add_to_cart" id="modal-add-to-cart-button"><i class="fas fa-cart-plus"></i> <?= !empty($this->lang->line('add_to_cart')) ? $this->lang->line('add_to_cart') : 'Add To Cart' ?></button>
+                    <button class="buttons primary-button m-0 add_to_cart" id="modal-add-to-cart-button"><i class="fas fa-phones"></i> <?= !empty($this->lang->line('add_to_cart')) ? $this->lang->line('add_to_cart') : 'Add To Cart' ?></button>
                 </div>
                 <div class="button button-sm m-0 p-0">
                     <button class="buttons red-button m-0" id="add_to_favorite_btn"><i class="far fa-heart"></i> <span><?= !empty($this->lang->line('add_to_favorite')) ? $this->lang->line('add_to_favorite') : 'Add to Favorite' ?></span></button>

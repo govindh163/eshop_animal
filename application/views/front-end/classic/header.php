@@ -196,12 +196,12 @@
          <?php $page = $this->uri->segment(2) == 'checkout' ? 'checkout' : '' ?>
          <?php if ($page == 'checkout') { ?>
              <a class="shopping-cart-sidebar-btn d-none" href="<?= base_url('cart') ?>">
-                 <i class="fa-cart fa-cart-plus fas link-color"></i>
+                 <i class="fa-cart fa-phone fas link-color"></i>
              </a>
 
          <?php } else { ?>
              <a class="shopping-cart-sidebar-btn d-none" href="#" onclick="openCartSidebar()">
-                 <i class="fa-cart fa-cart-plus fas link-color"></i>
+                 <i class="fa-cart fa-phone fas link-color"></i>
              </a>
          <?php } ?>
 
@@ -257,7 +257,7 @@
                      <?php if ($page == 'checkout') { ?>
                          <li class="nav-item active">
                              <a href="<?= base_url('cart') ?>" class="p-2 header-icon">
-                                 <i class="fa-cart fa-cart-plus fa-lg fas link-color"></i>
+                                 <i class="fa-cart fa-phone fa-lg fas link-color"></i>
                                  <span class="badge badge-danger badge-sm" id='cart-count'><?= (count($this->cart_model->get_user_cart($this->session->userdata('user_id'))) != 0 ? count($this->cart_model->get_user_cart($this->session->userdata('user_id'))) : ''); ?></span>
                              </a>
                          </li>
@@ -265,7 +265,7 @@
                      <?php } else { ?>
                          <li class="nav-item active">
                              <a href="javascript:void(0);" class="p-2 header-icon" onclick=openCartSidebar()>
-                                 <i class="fa-cart fa-cart-plus fa-lg fas link-color"></i>
+                                 <i class="fa-cart fa-phone fa-lg fas link-color"></i>
                                  <span class="badge badge-danger badge-sm" id='cart-count'><?= (count($this->cart_model->get_user_cart($this->session->userdata('user_id'))) != 0 ? count($this->cart_model->get_user_cart($this->session->userdata('user_id'))) : ''); ?></span>
                              </a>
                          </li>
