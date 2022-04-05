@@ -1,0 +1,56 @@
+1.	Location change option in store list
+2.	Category icons filter in store list page
+3.	Show store timing in store list
+4.	Show available offers in store list like free delivery, promocode, cashback, discounts
+5.	Show out of stock and store closed information in search result
+6.	pre order option for closed store 
+7.	show update information in old version
+8.	Show No internet error message
+9.	Add wallet in menu. Show balance, history and add balance option, transfer balance option. And wallet payment in payment page.
+10.	Popup message based on location
+11.	Dynamic Slider based on location
+
+C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools
+adb tcpip 5555
+adb connect ip address
+
+Completed---1,2,3,4,5,7,8,10,11
+
+
+Need to filter the products based on shop category and add lantlang and radiud range 
+https://keeggi.in/wp-json/wc/v3/products?status=publish&per_page=20&page=1&skip_cache=1&category=2&consumer_key=ck_bbb71a795b983b594a8d011b66a8faa75c0742b5&consumer_secret=cs_f1b655260edff51ee1e02d30020017e1765d7fca
+
+
+Need to add latlng for search api While searching products it must return products based on lat lang and radius range posted from app
+https://keeggi.in/wp-json/wc/v2/products?status=publish&page=1&per_page=20&category=2&attribute=&attribute_term=&tag=&search=ff&consumer_key=ck_bbb71a795b983b594a8d011b66a8faa75c0742b5&consumer_secret=cs_f1b655260edff51ee1e02d30020017e1765d7fca
+
+1.Updated to new Version.
+2.Address Removed.
+3.Shipping Method Changes done!
+4.Products screen UI Changes products card view
+
+eshop app web:
+need to add set as default when address is added
+need to refresh app after login completed
+
+1.Pos Mobile number search added
+2.Sold by addded not updating from admin end,and showing when added in db
+
+
+Hello, I'll publish your flutter application in your google play console account. Please send me a message to discuss more about it.
+Portfolio Link:https://govindh163.github.io/.Thanks for your consideration.
+
+Hi,
+I am Futter Developer with 2+ Years of Experience
+Published about 10+ apps in Google Play.
+Let's Open up Chat!!
+Portfolio Link:https://govindh163.github.io/
+
+
+Hi Client. Flutter is ready for you here
+I have checked your job posting carefully and I am very interested in this project.
+I must finish your work in your deadline.
+I am having overall 3+ years of experience in Full Stack android&IOS development with flutter.
+I would like to work with you.
+I will provide quality work.
+Thanks.
