@@ -392,10 +392,12 @@
                     $variant_id = "";
                 }
                 ?>
+                    <a class="add-to-cart" href="tel:<?= $web_settings['support_number'] ?>"><i class="fa fa-phone-alt"></i> <?= !empty($this->lang->line('add_to_cart')) ? $this->lang->line('add_to_cart') : 'Add To Cart' ?></a>
 
-                <button type="button" name="add_cart" class="buttons btn-6-6 extra-small m-0 add_to_cart" id="add_cart" data-product-id="<?= $product['product'][0]['id'] ?>" data-product-title="<?= $product['product'][0]['name'] ?>" data-product-image="<?= $product['product'][0]['image'] ?>" data-product-price="<?= $variant['special_price']; ?>" data-product-description="<?= $product['product'][0]['short_description']; ?>" data-step="<?= (isset($product['product'][0]['minimum_order_quantity']) && !empty($product['product'][0]['quantity_step_size'])) ? $product['product'][0]['quantity_step_size'] : 1 ?>" data-min="<?= (isset($product['product'][0]['minimum_order_quantity']) && !empty($product['product'][0]['minimum_order_quantity'])) ? $product['product'][0]['minimum_order_quantity'] : 1 ?>" data-max="<?= (isset($product['product'][0]['total_allowed_quantity']) && !empty($product['product'][0]['total_allowed_quantity'])) ? $product['product'][0]['total_allowed_quantity'] : '' ?>" data-product-variant-id="<?= $variant_id ?>">
+              <!--  <button type="button" name="add_cart" class="buttons btn-6-6 extra-small m-0 add_to_cart" id="add_cart" data-product-id="<?= $product['product'][0]['id'] ?>" data-product-title="<?= $product['product'][0]['name'] ?>" data-product-image="<?= $product['product'][0]['image'] ?>" data-product-price="<?= $variant['special_price']; ?>" data-product-description="<?= $product['product'][0]['short_description']; ?>" data-step="<?= (isset($product['product'][0]['minimum_order_quantity']) && !empty($product['product'][0]['quantity_step_size'])) ? $product['product'][0]['quantity_step_size'] : 1 ?>" data-min="<?= (isset($product['product'][0]['minimum_order_quantity']) && !empty($product['product'][0]['minimum_order_quantity'])) ? $product['product'][0]['minimum_order_quantity'] : 1 ?>" data-max="<?= (isset($product['product'][0]['total_allowed_quantity']) && !empty($product['product'][0]['total_allowed_quantity'])) ? $product['product'][0]['total_allowed_quantity'] : '' ?>" data-product-variant-id="<?= $variant_id ?>">
                     <i class="fas fa-phone"></i> <?= !empty($this->lang->line('add_to_cart')) ? $this->lang->line('add_to_cart') : 'Add to Cart' ?>
-                </button>
+                </button>-->
+
                 <?php if ($product['product'][0]['is_favorite'] == 0) { ?>
                     <button class="buttons btn-6-1 extra-small m-0 add-fav" id="add_to_favorite_btn" data-product-id="<?= $product['product'][0]['id'] ?>">
                         <i class="fas fa-heart mr-2"></i>
@@ -634,9 +636,9 @@
                                             $modal = "#quick-view";
                                         }
                                         ?>
-                                        <a href="" data-tip="Add to Cart" class="add_to_cart" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-izimodal-open="<?= $modal ?>">
-                                            <i class="fa fa-shopping-cart"></i>
-                                        </a>
+                                       <!-- <a href="" data-tip="Add to Cart" class="add_to_cart" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-izimodal-open="<?= $modal ?>">
+                                            <i class="fa fa-shopping-cart"></i>-->
+                                               <a data-tip="Enquire Now" href="tel:<?= $web_settings['support_number'] ?>"><i class="fa fa-phone-alt"></i></a> </a>
                                     </li>
                                 </ul>
                                 <?php if (isset($row['min_max_price']['special_price']) && $row['min_max_price']['special_price'] != '' && $row['min_max_price']['special_price'] != 0 && $row['min_max_price']['special_price'] < $row['min_max_price']['min_price']) { ?>
@@ -661,7 +663,9 @@
                                 $data_step = (isset($row['minimum_order_quantity']) && !empty($row['quantity_step_size'])) ? $row['quantity_step_size'] : 1;
                                 $data_max = (isset($row['total_allowed_quantity']) && !empty($row['total_allowed_quantity'])) ? $row['total_allowed_quantity'] : 0;
                                 ?>
-                                <a href="" class="add-to-cart add_to_cart" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-product-title="<?= $row['name'] ?>" data-product-image="<?= $row['image'] ?>" data-product-price="<?= $variant_price; ?>" data-min="<?= $data_min; ?>" data-step="<?= $data_step; ?>" data-product-description="<?= $row['short_description']; ?>" data-izimodal-open="<?= $modal ?>"><i class="fas fa-phone"></i> <?= !empty($this->lang->line('add_to_cart')) ? $this->lang->line('add_to_cart') : 'Add To Cart' ?></a>
+                               <a class="add-to-cart" href="tel:<?= $web_settings['support_number'] ?>"><i class="fa fa-phone-alt"></i> <?= !empty($this->lang->line('add_to_cart')) ? $this->lang->line('add_to_cart') : 'Add To Cart' ?></a>
+<!--                        <a href="" class="add-to-cart add_to_cart" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-product-title="<?= $row['name'] ?>" data-product-image="<?= $row['image'] ?>" data-product-price="<?= $variant_price; ?>" data-min="<?= $data_min; ?>" data-step="<?= $data_step; ?>" data-product-description="<?= $row['short_description']; ?>" data-izimodal-open="<?= $modal ?>"><i class="fas fa-phone"></i> <?= !empty($this->lang->line('add_to_cart')) ? $this->lang->line('add_to_cart') : 'Add To Cart' ?></a>
+                          -->
                             </div>
                         </div>
                     </div>
