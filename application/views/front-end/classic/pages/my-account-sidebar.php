@@ -46,6 +46,15 @@
         </a>
     </li>
     <li class="nav-item mt-2">
+        <a class="nav-link rounded <?=($current_url==base_url('my-account/add-enquiry')) ? 'active' : ''?>" id="enquiry-details" href="<?= base_url('my-account/add-enquiry') ?>" id="enquiries" href="<?= base_url('my-account/add-enquiry') ?>">
+            <div class="text-left py-1 px-3">
+                <h6 class="mb-0">
+                    <i class="fas fa-map-marked-alt fa-lg left-aside"></i> <?=!empty($this->lang->line('address')) ? $this->lang->line('address') : 'ADDRESS'?>
+                </h6>
+            </div>
+        </a>
+    </li>
+    <li class="nav-item mt-2">
         <a class="nav-link rounded <?=($current_url==base_url('my-account/wallet')) ? 'active' : ''?>" id="wallet-details" href="<?= base_url('my-account/wallet') ?>">
             <div class="text-left py-1 px-3">
                 <h6 class="mb-0">

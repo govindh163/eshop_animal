@@ -78,6 +78,17 @@
                     </a>
                 </div>
                 <div class='col-md-3 card text-center border-0 mr-3 mb-3'>
+                    <a href='<?= base_url('my-account/add-enquiry') ?>' class="link-color">
+                        <div class='card-header bg-transparent'>
+                        <?=   'Enquiry' ?>
+                            <!-- <?= !empty($this->lang->line('address')) ? $this->lang->line('address') : 'Enquiry' ?> -->
+                        </div>
+                        <div class='card-body'>
+                            <i class="far fa-id-badge dashboard-icon link-color fa-lg"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class='col-md-3 card text-center border-0 mr-3 mb-3'>
                     <a href='<?= base_url('my-account/wallet') ?>' class="link-color">
                         <div class='card-header bg-transparent'>
                             <?= !empty($this->lang->line('wallet')) ? $this->lang->line('wallet') : 'WALLET' ?>

@@ -20,7 +20,7 @@
 .toggle-input:disabled:checked+.toggle.switch, .toggle.switch.is-active.is-disabled,
 .toggle-input:checked+.toggle.checkbox, .toggle.checkbox.is-active,
 .toggle-input:disabled:checked+.toggle.checkbox, .toggle.checkbox.is-active.is-disabled {
-    background-color: #FF6A65 !important;
+    background-color: #359116 !important;
 }
 
 
@@ -75,5 +75,5 @@ ul.sub-submenu li:hover,
 
 .colored-breadcrumb,
 .page-footer {
-    background-color: #ff6a6533 !important;
+    background-color: #65ff6533 !important;
 }
