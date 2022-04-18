@@ -638,7 +638,7 @@
                                         ?>
                                        <!-- <a href="" data-tip="Add to Cart" class="add_to_cart" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-izimodal-open="<?= $modal ?>">
                                             <i class="fa fa-shopping-cart"></i>-->
-                                               <a data-tip="Enquire Now" href="tel:<?= $web_settings['support_number'] ?>"><i class="fa fa-phone-alt"></i></a> </a>
+                                               <a data-tip="Call Farm Manager" href="tel:<?= $web_settings['support_number'] ?>"><i class="fa fa-phone-alt"></i></a> </a>
                                     </li>
                                 </ul>
                                 <?php if (isset($row['min_max_price']['special_price']) && $row['min_max_price']['special_price'] != '' && $row['min_max_price']['special_price'] != 0 && $row['min_max_price']['special_price'] < $row['min_max_price']['min_price']) { ?>

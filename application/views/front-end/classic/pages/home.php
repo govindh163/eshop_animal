@@ -370,7 +370,7 @@
                                             $modal = "#quick-view";
                                         }
                                         ?>
-                                        <a href="#" data-tip="Enquire now" class="add_to_cart" data-product-id="<?= $first_product['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-izimodal-open="<?= $modal ?>">
+                                        <a href="#" data-tip="Call Farm Manager" class="add_to_cart" data-product-id="<?= $first_product['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-izimodal-open="<?= $modal ?>">
                                             <i class="fa fa-phone"></i>
                                         </a>
                                     </li>

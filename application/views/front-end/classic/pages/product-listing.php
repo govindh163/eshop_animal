@@ -167,8 +167,8 @@
                                                         ?>
 
                                                         <li><a href="" class="quick-view-btn" data-tip="Quick View" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $row['variants'][0]['id'] ?>" data-izimodal-open="#quick-view"><i class="fa fa-search"></i></a></li>
-                                                      <li> <a data-tip="Enquire Now" href="tel:<?= $web_settings['support_number'] ?>"><i class="fa fa-phone-alt"></i></a></li>
-                                                   <!-- <li><a href="" data-tip="Enquire Now" class="add_to_cart" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-izimodal-open="<?= $modal ?>"><i class="fa fa-phone"></i></a></li>
+                                                      <li> <a data-tip="Call Farm Manager" href="tel:<?= $web_settings['support_number'] ?>"><i class="fa fa-phone-alt"></i></a></li>
+                                                   <!-- <li><a href="" data-tip="Call Farm Manager" class="add_to_cart" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-izimodal-open="<?= $modal ?>"><i class="fa fa-phone"></i></a></li>
                                                    -->
                                                     </ul>
                                                     <?php if (isset($row['min_max_price']['special_price']) && $row['min_max_price']['special_price'] != '' && $row['min_max_price']['special_price'] != 0 && $row['min_max_price']['special_price'] < $row['min_max_price']['min_price']) { ?>
@@ -252,8 +252,8 @@
                                                     }
                                                     ?>
                                                     <li><a href="" class="quick-view-btn" data-tip="Quick View" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $row['variants'][0]['id'] ?>" data-izimodal-open="#quick-view"><i class="fa fa-search"></i></a></li>
-                                                    <li> <a data-tip="Enquire Now" href="tel:<?= $web_settings['support_number'] ?>"><i class="fa fa-phone-alt"></i></a></li>
-                                                                                                   <!-- <li><a href="" data-tip="Enquire Now" class="add_to_cart" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-izimodal-open="<?= $modal ?>"><i class="fa fa-phone"></i></a></li>
+                                                    <li> <a data-tip="Call Farm Manager" href="tel:<?= $web_settings['support_number'] ?>"><i class="fa fa-phone-alt"></i></a></li>
+                                                                                                   <!-- <li><a href="" data-tip="Call Farm ManagerE" class="add_to_cart" data-product-id="<?= $row['id'] ?>" data-product-variant-id="<?= $variant_id ?>" data-izimodal-open="<?= $modal ?>"><i class="fa fa-phone"></i></a></li>
                                                                                                    -->
 
                                                 </ul>
